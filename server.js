@@ -4,6 +4,7 @@ const express = require('express');
 // mysql creates a connection and allows you to query the database
 const mysql = require('mysql');
 
+// allows localhost:3000 to connect to localhost:5000
 const cors = require('cors');
 
 const PORT = process.env.PORT || 5000;

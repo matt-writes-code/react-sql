@@ -9,4 +9,3 @@ module.exports = (app, connection) => {
         // res.send('You managed to create a route!');
     })
 }
-
